@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C527A7F621A63EE2009CFC04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527A7F521A63EE2009CFC04 /* AppDelegate.swift */; };
+		C527A7F821A63EE2009CFC04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527A7F721A63EE2009CFC04 /* ViewController.swift */; };
+		C527A7FB21A63EE2009CFC04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C527A7F921A63EE2009CFC04 /* Main.storyboard */; };
+		C527A7FD21A63EE2009CFC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527A7FC21A63EE2009CFC04 /* Assets.xcassets */; };
+		C527A80021A63EE2009CFC04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C527A7FE21A63EE2009CFC04 /* LaunchScreen.storyboard */; };
+		C527A80B21A63EE2009CFC04 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527A80A21A63EE2009CFC04 /* ____Tests.swift */; };
+		C527A81621A63EE2009CFC04 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527A81521A63EE2009CFC04 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C527A80721A63EE2009CFC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C527A7EA21A63EE2009CFC04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C527A7F121A63EE2009CFC04;
+			remoteInfo = "智慧烟感";
+		};
+		C527A81221A63EE2009CFC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C527A7EA21A63EE2009CFC04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C527A7F121A63EE2009CFC04;
+			remoteInfo = "智慧烟感";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C527A7F221A63EE2009CFC04 /* 智慧烟感.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "智慧烟感.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C527A7F521A63EE2009CFC04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C527A7F721A63EE2009CFC04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C527A7FA21A63EE2009CFC04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C527A7FC21A63EE2009CFC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C527A7FF21A63EE2009CFC04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C527A80121A63EE2009CFC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C527A80621A63EE2009CFC04 /* 智慧烟感Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "智慧烟感Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C527A80A21A63EE2009CFC04 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		C527A80C21A63EE2009CFC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C527A81121A63EE2009CFC04 /* 智慧烟感UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "智慧烟感UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C527A81521A63EE2009CFC04 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		C527A81721A63EE2009CFC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C527A7EF21A63EE2009CFC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80321A63EE2009CFC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80E21A63EE2009CFC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C527A7E921A63EE2009CFC04 = {
+			isa = PBXGroup;
+			children = (
+				C527A7F421A63EE2009CFC04 /* 智慧烟感 */,
+				C527A80921A63EE2009CFC04 /* 智慧烟感Tests */,
+				C527A81421A63EE2009CFC04 /* 智慧烟感UITests */,
+				C527A7F321A63EE2009CFC04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C527A7F321A63EE2009CFC04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C527A7F221A63EE2009CFC04 /* 智慧烟感.app */,
+				C527A80621A63EE2009CFC04 /* 智慧烟感Tests.xctest */,
+				C527A81121A63EE2009CFC04 /* 智慧烟感UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C527A7F421A63EE2009CFC04 /* 智慧烟感 */ = {
+			isa = PBXGroup;
+			children = (
+				C527A7F521A63EE2009CFC04 /* AppDelegate.swift */,
+				C527A7F721A63EE2009CFC04 /* ViewController.swift */,
+				C527A7F921A63EE2009CFC04 /* Main.storyboard */,
+				C527A7FC21A63EE2009CFC04 /* Assets.xcassets */,
+				C527A7FE21A63EE2009CFC04 /* LaunchScreen.storyboard */,
+				C527A80121A63EE2009CFC04 /* Info.plist */,
+			);
+			path = "智慧烟感";
+			sourceTree = "<group>";
+		};
+		C527A80921A63EE2009CFC04 /* 智慧烟感Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C527A80A21A63EE2009CFC04 /* ____Tests.swift */,
+				C527A80C21A63EE2009CFC04 /* Info.plist */,
+			);
+			path = "智慧烟感Tests";
+			sourceTree = "<group>";
+		};
+		C527A81421A63EE2009CFC04 /* 智慧烟感UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C527A81521A63EE2009CFC04 /* ____UITests.swift */,
+				C527A81721A63EE2009CFC04 /* Info.plist */,
+			);
+			path = "智慧烟感UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C527A7F121A63EE2009CFC04 /* 智慧烟感 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C527A81A21A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感" */;
+			buildPhases = (
+				C527A7EE21A63EE2009CFC04 /* Sources */,
+				C527A7EF21A63EE2009CFC04 /* Frameworks */,
+				C527A7F021A63EE2009CFC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "智慧烟感";
+			productName = "智慧烟感";
+			productReference = C527A7F221A63EE2009CFC04 /* 智慧烟感.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C527A80521A63EE2009CFC04 /* 智慧烟感Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C527A81D21A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感Tests" */;
+			buildPhases = (
+				C527A80221A63EE2009CFC04 /* Sources */,
+				C527A80321A63EE2009CFC04 /* Frameworks */,
+				C527A80421A63EE2009CFC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C527A80821A63EE2009CFC04 /* PBXTargetDependency */,
+			);
+			name = "智慧烟感Tests";
+			productName = "智慧烟感Tests";
+			productReference = C527A80621A63EE2009CFC04 /* 智慧烟感Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C527A81021A63EE2009CFC04 /* 智慧烟感UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C527A82021A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感UITests" */;
+			buildPhases = (
+				C527A80D21A63EE2009CFC04 /* Sources */,
+				C527A80E21A63EE2009CFC04 /* Frameworks */,
+				C527A80F21A63EE2009CFC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C527A81321A63EE2009CFC04 /* PBXTargetDependency */,
+			);
+			name = "智慧烟感UITests";
+			productName = "智慧烟感UITests";
+			productReference = C527A81121A63EE2009CFC04 /* 智慧烟感UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C527A7EA21A63EE2009CFC04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mr.yang;
+				TargetAttributes = {
+					C527A7F121A63EE2009CFC04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C527A80521A63EE2009CFC04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C527A7F121A63EE2009CFC04;
+					};
+					C527A81021A63EE2009CFC04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C527A7F121A63EE2009CFC04;
+					};
+				};
+			};
+			buildConfigurationList = C527A7ED21A63EE2009CFC04 /* Build configuration list for PBXProject "智慧烟感" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C527A7E921A63EE2009CFC04;
+			productRefGroup = C527A7F321A63EE2009CFC04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C527A7F121A63EE2009CFC04 /* 智慧烟感 */,
+				C527A80521A63EE2009CFC04 /* 智慧烟感Tests */,
+				C527A81021A63EE2009CFC04 /* 智慧烟感UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C527A7F021A63EE2009CFC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527A80021A63EE2009CFC04 /* LaunchScreen.storyboard in Resources */,
+				C527A7FD21A63EE2009CFC04 /* Assets.xcassets in Resources */,
+				C527A7FB21A63EE2009CFC04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80421A63EE2009CFC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80F21A63EE2009CFC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C527A7EE21A63EE2009CFC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527A7F821A63EE2009CFC04 /* ViewController.swift in Sources */,
+				C527A7F621A63EE2009CFC04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80221A63EE2009CFC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527A80B21A63EE2009CFC04 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527A80D21A63EE2009CFC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527A81621A63EE2009CFC04 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C527A80821A63EE2009CFC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C527A7F121A63EE2009CFC04 /* 智慧烟感 */;
+			targetProxy = C527A80721A63EE2009CFC04 /* PBXContainerItemProxy */;
+		};
+		C527A81321A63EE2009CFC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C527A7F121A63EE2009CFC04 /* 智慧烟感 */;
+			targetProxy = C527A81221A63EE2009CFC04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C527A7F921A63EE2009CFC04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527A7FA21A63EE2009CFC04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C527A7FE21A63EE2009CFC04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527A7FF21A63EE2009CFC04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C527A81821A63EE2009CFC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C527A81921A63EE2009CFC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C527A81B21A63EE2009CFC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C527A81C21A63EE2009CFC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C527A81E21A63EE2009CFC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/智慧烟感.app/智慧烟感";
+			};
+			name = Debug;
+		};
+		C527A81F21A63EE2009CFC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/智慧烟感.app/智慧烟感";
+			};
+			name = Release;
+		};
+		C527A82121A63EE2009CFC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "智慧烟感";
+			};
+			name = Debug;
+		};
+		C527A82221A63EE2009CFC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2A9SY7TAB;
+				INFOPLIST_FILE = "智慧烟感UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuhangkeji.kulala.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "智慧烟感";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C527A7ED21A63EE2009CFC04 /* Build configuration list for PBXProject "智慧烟感" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527A81821A63EE2009CFC04 /* Debug */,
+				C527A81921A63EE2009CFC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C527A81A21A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527A81B21A63EE2009CFC04 /* Debug */,
+				C527A81C21A63EE2009CFC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C527A81D21A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527A81E21A63EE2009CFC04 /* Debug */,
+				C527A81F21A63EE2009CFC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C527A82021A63EE2009CFC04 /* Build configuration list for PBXNativeTarget "智慧烟感UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527A82121A63EE2009CFC04 /* Debug */,
+				C527A82221A63EE2009CFC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C527A7EA21A63EE2009CFC04 /* Project object */;
+}
