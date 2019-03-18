@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>智慧烟感</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,24 +17,47 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>24</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>jpush.cn</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>智慧烟感需要使用您的相机，为您提供拍摄、扫描二维码的服务</string>
+	<key>NSContactsUsageDescription</key>
+	<string>智慧烟感需要使用您的通讯录，为您添加联系人提供方便</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>"智慧烟感"需要得到您所在的区域位置，为您提供相应城市的服务</string>
+	<key>NSLocationUsageDescription</key>
+	<string>"智慧烟感"需要得到您所在的区域位置，为您提供相应城市的服务</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>"智慧烟感"需要得到您所在的区域位置，为您提供相应城市的服务</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>智慧烟感需要使用您的相册，为您提供图像上传，修改头衔等服务</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

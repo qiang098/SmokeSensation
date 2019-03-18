@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="68" id="xJ2-Hf-k5m" customClass="ModelCell" customModule="智慧烟感" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xJ2-Hf-k5m" id="RXr-T7-Lc3">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRa-LJ-fOP">
+                        <rect key="frame" x="166" y="11" width="42" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0F-tf-NTJ">
+                        <rect key="frame" x="216" y="23" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="K0F-tf-NTJ" firstAttribute="leading" secondItem="nRa-LJ-fOP" secondAttribute="trailing" constant="8" id="J0N-G4-VBC"/>
+                    <constraint firstItem="nRa-LJ-fOP" firstAttribute="centerX" secondItem="RXr-T7-Lc3" secondAttribute="centerX" id="Op8-Vm-isP"/>
+                    <constraint firstItem="nRa-LJ-fOP" firstAttribute="centerY" secondItem="RXr-T7-Lc3" secondAttribute="centerY" id="Wv7-dN-iFi"/>
+                    <constraint firstItem="K0F-tf-NTJ" firstAttribute="centerY" secondItem="nRa-LJ-fOP" secondAttribute="centerY" id="cG5-gE-3hI"/>
+                    <constraint firstItem="nRa-LJ-fOP" firstAttribute="top" secondItem="RXr-T7-Lc3" secondAttribute="topMargin" id="lBh-wu-vVY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="modelNum" destination="nRa-LJ-fOP" id="Cmu-bU-zgF"/>
+                <outlet property="select" destination="K0F-tf-NTJ" id="dLx-r0-Na8"/>
+            </connections>
+            <point key="canvasLocation" x="-28.5" y="137"/>
+        </tableViewCell>
+    </objects>
+</document>

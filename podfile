@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target '智慧烟感' do
+
+pod 'DGElasticPullToRefresh' #下拉刷新
+pod 'MJRefresh' #刷新和加载更多
+pod 'swiftScan' #二维码
+pod 'AVOSCloud' #数据库
+pod 'JPush' #极光推送
+pod 'JZLocationConverter' #坐标系转换
+
+end
