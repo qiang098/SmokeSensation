@@ -1,0 +1,40 @@
+PODS:
+  - AVOSCloud (11.4.5)
+  - DGElasticPullToRefresh (1.1)
+  - JCore (1.2.5)
+  - JPush (3.1.1.1):
+    - JCore (~> 1.2.5)
+  - JZLocationConverter (1.0.0)
+  - MJRefresh (3.1.15.7)
+  - swiftScan (1.1.5)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - DGElasticPullToRefresh
+  - JPush
+  - JZLocationConverter
+  - MJRefresh
+  - swiftScan
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - DGElasticPullToRefresh
+    - JCore
+    - JPush
+    - JZLocationConverter
+    - MJRefresh
+    - swiftScan
+
+SPEC CHECKSUMS:
+  AVOSCloud: 1c21d946e5422597353519b31c780c04ec5f4f5e
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  JCore: 14706de2640b25fb77dbd02332696491407f37c9
+  JPush: 25dd9013fbe106082c14f9f30a82364ee98852fb
+  JZLocationConverter: 3d816bee6484aed9c155a6045a02ce444833e2f0
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  swiftScan: bc6dbf74e6a579c45a861691afc44628d8d9f6ab
+
+PODFILE CHECKSUM: b5bb5e92932b2a18c03b485c0391fa9aebff4e50
+
+COCOAPODS: 1.5.3
